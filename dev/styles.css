@@ -1,0 +1,17 @@
+.lib-outer-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.lib-header {
+  font-size: xx-large;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.lib-inner-container {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  flex-wrap: wrap;
+}
