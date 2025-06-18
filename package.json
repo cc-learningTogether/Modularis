@@ -1,7 +1,7 @@
 {
   "name": "@binarynest/modularis",
   "version": "1.0.0",
-  "description": "Library",
+  "description": "React component for UI",
   "author": "binarynest",
   "main": "dist/index.umd.js",
   "module": "dist/index.es.js",
@@ -62,7 +62,7 @@
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "git+https://github.com/cc-learningTogether/Modularis.git"
   },
   "keywords": [
     "vite",
@@ -70,7 +70,7 @@
     "storybook"
   ],
   "bugs": {
-    "url": ""
+    "url": "https://github.com/cc-learningTogether/Modularis/issues"
   },
-  "homepage": ""
+  "homepage": "https://github.com/cc-learningTogether/Modularis"
 }
