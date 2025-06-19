@@ -17,6 +17,9 @@ By offering a shared set of components, Modularis helps teams avoid rebuilding t
 ## How to Use
 ### 1. Install the library
 
+This package is available in npm, [@binarynest/modularis
+](https://www.npmjs.com/package/@binarynest/modularis)
+
 ```
 npm i @binarynest/modularis
 ```
