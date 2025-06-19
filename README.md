@@ -1,6 +1,6 @@
-# @bynarynest/Modularis 🌌
+# Modularis 🌌
 
-## What is Modularis?
+## What is Modularis? 
 Modularis is a library of reusable React components designed to provide a consistent and flexible UI across multiple web applications.
 
 ## Motivation
@@ -15,7 +15,29 @@ The goal of Modularis is to:
 By offering a shared set of components, Modularis helps teams avoid rebuilding the same UI elements in every project.
 
 ## How to Use
-Usage instructions will be published soon. Stay tuned!
+### 1. Install the library
+
+```
+npm i @binarynest/modularis
+```
+
+If you use yarn
+
+```
+yarn add @binarynest/modularis
+```
+
+### 2. Import CSS file from the package 
+
+```
+// In the main entry file of your app (e.g. index.tsx or App.tsx)
+
+import 'my-package/styles.css';
+```
+
+Why you need to import CSS file from the package ? 
+
+See:[ Why Tailwind CSS Styles Disappeared After Importing My Component Package](https://hugo.msano.ovh/post/20250602-tailwindcss-styles-disappeared-npm-package/)
 
 ## How to contribute
 
@@ -33,7 +55,7 @@ Run the following command in the project root to install the necessary packages:
 ```
 
 ##### 3. Start Storybook
-Launch Storybook to preview and interact with the components:
+Launch [Storybook](https://storybook.js.org/) to preview and interact with the components:
 
 ```bash
     npm run storybook
@@ -43,7 +65,7 @@ Launch Storybook to preview and interact with the components:
 
 #### 1. Check the To-Dos
 
-Visit the [Projects board](https://github.com/orgs/cc-learningTogether/projects/4/views/1) and browse the available tasks.
+Visit the [Project backlog](https://github.com/orgs/cc-learningTogether/projects/4/views/1) and browse the available tasks.
 
 Pick a task and assign yourself
 Choose a task you’d like to work on and assign it to yourself.
@@ -68,6 +90,4 @@ Please follow the Conventional Commit format.
 Base your pull request on the `development` branch. 
 
 Notify an organizer once your PR is ready for review.
-
-※`development` branch is protected by a ruleset. [See more details.](https://github.com/cc-learningTogether/Modularis/settings/rules/6140291)
 
