@@ -21,7 +21,7 @@ export default defineConfig(({ command, mode }) => {
       build: {
         lib: {
           entry: path.resolve(__dirname, "src/index.ts"),
-          name: "prj_msano_lib",
+          name: "@binarynest/modularis",
           formats: ["es", "umd"],
           fileName: (format) => `index.${format}.js`,
         },
