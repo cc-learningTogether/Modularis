@@ -91,3 +91,4 @@ Base your pull request on the `development` branch.
 
 Notify an organizer once your PR is ready for review.
 
+`main` and `development` branch is protected. To merge Pull Request, it requires an approval.
